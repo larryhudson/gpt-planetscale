@@ -7,6 +7,13 @@
     <title>Document</title>
   </head>
   <body>
-    <p>Testing.</p>
+    <h1>Send a message</h1>
+    <form method="POST" action="/send-message">
+      <label for="conversationId">Conversation ID</label>
+      <input id="conversationId" type="text" name="conversationId" />
+      <label for="newMessageContent">Message</label>
+      <input id="newMessageContent" type="text" name="newMessageContent" />
+      <button type="submit">Send</button>
+    </form>
   </body>
 </html>
